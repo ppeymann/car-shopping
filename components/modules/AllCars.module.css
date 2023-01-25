@@ -1,0 +1,20 @@
+.container {
+  width: 440px;
+  margin: 50px auto;
+}
+
+.container a {
+  background-color: #00337c;
+  color: #f8f8f8;
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 320px;
+  }
+}
