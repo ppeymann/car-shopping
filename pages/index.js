@@ -1,11 +1,17 @@
-import { Inter } from "@next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
+import AllCars from "@/components/modules/AllCars";
+import Categories from "@/components/modules/Categories";
+import Searchbar from "@/components/modules/Searchbar";
+import CarsPage from "@/components/templates/CarsPage";
+import carsData from "data/carsData";
 
 export default function Home() {
+  const cars = carsData.slice(0, 3);
   return (
     <div>
-      <h1>React</h1>
+      <Searchbar />
+      <Categories />
+      <AllCars />
+      <CarsPage data={cars} />
     </div>
   );
 }

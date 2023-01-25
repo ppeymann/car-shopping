@@ -1,8 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Patua+One&display=swap");
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Patua One", cursive;
+}
+
+input,
+button {
+  font-family: "Patua One", cursive;
 }
 
 * {
