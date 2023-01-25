@@ -13,9 +13,7 @@ const Layout = ({ children }) => {
       <div className={styled.container}>{children}</div>
       <footer className={styled.footer}>
         &copy;This Site Made By{" "}
-        <a href="https://peyman-malek.netlify.app" target="_blank">
-          Peyman malek
-        </a>
+        <a href="https://peyman-malek.netlify.app">Peyman malek</a>
       </footer>
     </>
   );
